@@ -125,7 +125,7 @@ public class CommercialArea extends JFrame {
                 return 1;
         }
     }
-
+    // back to previous menu
     private void handleBack(ActionEvent e) {
         // Close the current ResidentialArea window and return to HomePage
         new HomePage().setVisible(true);
